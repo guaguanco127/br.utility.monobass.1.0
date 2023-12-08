@@ -9,7 +9,7 @@ Additional programs can be found here: [https://github.com/guaguanco127](https:/
 
 These files were created with Max/MSP version 8.5.6, or RNBO 1.2.3. Links on how to use and/or install below. 
 
-This is a basic patch/external/plugin/device that allows the user to sum all frequencies below a cutoff to mono, while leaving all frequencies above the cutoff in stereo.  
+This is a basic patch/external/plugin/device that allows the user to sum all frequencies of a stereo signal below a cutoff to mono, while leaving all frequencies above the cutoff in stereo.  
 Currently works in any sample rate or bit depth.  
 
 You can use as a Max for Live device within Ableton Live Suite, or as an abstration or external object within Max/MSP. You can also build your own VST or AU audio plugin to use with a DAW. 
