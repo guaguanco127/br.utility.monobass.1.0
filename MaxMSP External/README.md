@@ -46,6 +46,8 @@ This external works almost like the abstraction version. However, you are unable
 
 The first two inlets are for the left and the right stereo signals. The 3rd inlet either bypasses the effect, or turns it on. An integer of 0 and 1 turns it off and on. The 4th inlet takes a float which is the cutoff frequency.
 
+The 5th inlet is to select the mix setting of the bass signal by selecting 0 = 0.0 dB, 1 = -3.0 dB, and 2 = -6.0 dB. The default is set to 1 as most mono summings are set to -3.0 dB for most plugins. 
+
 
     
 

@@ -27,7 +27,7 @@ br.utility.monobass.rnbo.ext.1.0 is a patch set up to export as a Max/MSP extern
 
 br.utility.monobass.rnbo.vst.1.0.maxpat is a patch set up to export as a VST or AU audio plugin.  
 
-Either program allows the user to sum all frequencies of a stereo signal below a cutoff to mono, while leaving all frequencies above the cutoff in stereo.  
+Either program allows the user to sum all frequencies of a stereo signal below a cutoff to mono, while leaving all frequencies above the cutoff in stereo. Additionally, the user can select the mix setting for the bass signa, -0.0 dB, -3.0 dB or -6.0 dB. 
 Currently works in any sample rate or bit depth.  
 
 ## <a name="External"></a>What is an External for Max/MSP?

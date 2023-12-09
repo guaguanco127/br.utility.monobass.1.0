@@ -21,7 +21,7 @@ These files were created with Max/MSP version 8.5.6, or RNBO 1.2.3. Links on how
 This is a basic Max for Live device that allows the user to sum all frequencies of a stereo signal below a cutoff to mono, while leaving all frequencies above the cutoff in stereo.  
 Currently works in any sample rate or bit depth.  
 
-Ableton Live already comes with an audio effect called Utility that contains this exact feature. The reason to use br.utility.monobass.1.0 is so that you can learn the basics of how Max/MSP works within the Ableton environment.  
+Ableton Live already comes with an audio effect called Utility that contains this exact feature. The reason to use br.utility.monobass.1.0 is so that you can learn the basics of how Max/MSP works within the Ableton environment. However, unlike the Max for Live Utility effect, the user has the option to define how the bass signal is summed in mono by choosing 3 different dB mix settings, -0.0, -3.0, or -6.0 dB. 
 
 ## <a name="M4L"></a>What Is a Max For Live Device?
 
