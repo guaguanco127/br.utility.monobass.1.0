@@ -39,7 +39,7 @@ By saving your logic in an abstraction, you can create modules that can be used 
 
 ## <a name="Use"></a>How To Use
 
-The first two inlets are for the left and the right stereo signals. The 3rd inlet either bypasses the effect, or turns it on. An integer of 0 and 1 turns it off and on. The 4th inlet takes a float which is the cutoff frequency.
+The first two inlets are for the left and the right stereo signals. The 3rd inlet either bypasses the effect, or turns it on. An integer of 0 and 1 turns it off and on. The 4th inlet takes a float which is the cutoff frequency. The 5th inlet adjusts the 3 different mix settings for the mono bass signal: 0 = -0.0 dB, 1 = -3.0 dB, 2 = -6.0 dB. The default is 1. 
 
 Double click on the object and you can see inside of the object. This way you can study how it was built. 
     
