@@ -3,7 +3,10 @@
 By Brian Riordan  
 [guaguanco127@gmail.com](mailto:guaguanco127@gmail.com)  
 [brianriordanmusic@gmail.com](mailto:brianriordanmusic@gmail.com)  
-Repository for br.utility.monobass.1.0, with all related filtes, can be found here: [https://github.com/guaguanco127/br.utility.monobass.1.0](https://github.com/guaguanco127/br.utility.monobass.1.0)  
+[https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
+
+  
+Repository for br.utility.monobass.1.0, with all related files, can be found here: [https://github.com/guaguanco127/br.utility.monobass.1.0](https://github.com/guaguanco127/br.utility.monobass.1.0)  
 Additional programs can be found here: [https://github.com/guaguanco127](https://github.com/guaguanco127)
 
 These files were created with Max/MSP version 8.5.6. and RNBO 1.2.3
