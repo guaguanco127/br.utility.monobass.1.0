@@ -7,7 +7,7 @@ By Brian Riordan
 
   
 Repository for br.utility.monoboass.1.0, with all related files, can be found here: [https://github.com/guaguanco127/br.utility.monobass.1.0](https://github.com/guaguanco127/br.utility.monobass.1.0)  
-Additional programs can be found here: [https://github.com/guaguanco127](https://github.com/guaguanco127)
+Additional programs can be found here: [https://github.com/guaguanco127/plugins](https://github.com/guaguanco127/plugins)
 
 These files were created with Max/MSP version 8.5.6.
 
