@@ -21,9 +21,7 @@ These files were created with Max/MSP version 8.5.6.
 
 ## <a name="About"></a>About
 
-This is a basic abstraction that allows the user to sum all frequencies  of a stereo signal below a cutoff to mono, while leaving all frequencies above the cutoff in stereo.  
-Currently works in any sample rate or bit depth.
-
+This is a basic external for Max/MSP that allows the user to sum all frequencies of a stereo signal below a cutoff to mono, while leaving all frequencies above the cutoff in stereo.  
 Currently works in any sample rate or bit depth.  
 
 The two versions present in this folder are for either Macintosh or Windows. 
