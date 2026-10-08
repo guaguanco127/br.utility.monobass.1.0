@@ -32,7 +32,7 @@
                         470.0,
                         33.0
                     ],
-                    "text": "_br.utility.monobass.example.2.0 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
+                    "text": "_br.utility.monobass.example.2.1 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
                     "linecount": 2
                 }
             },
@@ -87,7 +87,7 @@
                         560.0,
                         60.0
                     ],
-                    "text": "Two files, same DSP inside:\nbr.utility.monobass.2.0 = core, no UI (in: L, R, Bass Mono, Freq, Mix)\nbr.utility.monobass.ui.2.0 = the same with a Bass Mono button, a Freq dial and a Mix menu",
+                    "text": "Two files, same DSP inside:\nbr.utility.monobass.2.1 = core, no UI (in: L, R, Bass Mono, Freq, Mix)\nbr.utility.monobass.ui.2.1 = the same with a Bass Mono button, a Freq dial and a Mix menu",
                     "linecount": 4
                 }
             },
@@ -471,7 +471,7 @@
                         220.0,
                         20.0
                     ],
-                    "text": "A: br.utility.monobass.ui.2.0"
+                    "text": "A: br.utility.monobass.ui.2.1"
                 }
             },
             {
@@ -485,16 +485,17 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "br.utility.monobass.ui.2.0.maxpat",
+                    "name": "br.utility.monobass.ui.2.1.maxpat",
                     "numinlets": 5,
-                    "numoutlets": 2,
+                    "numoutlets": 3,
                     "offset": [
                         0.0,
                         0.0
                     ],
                     "outlettype": [
                         "signal",
-                        "signal"
+                        "signal",
+                        ""
                     ],
                     "patching_rect": [
                         630.0,
@@ -631,12 +632,13 @@
                     "fontsize": 12.0,
                     "maxclass": "newobj",
                     "id": "obj-b",
-                    "text": "br.utility.monobass.2.0",
+                    "text": "br.utility.monobass.2.1",
                     "numinlets": 5,
-                    "numoutlets": 2,
+                    "numoutlets": 3,
                     "outlettype": [
                         "signal",
-                        "signal"
+                        "signal",
+                        ""
                     ],
                     "patching_rect": [
                         810.0,
@@ -792,6 +794,338 @@
                         22.0
                     ],
                     "text": "dac~ 1 2"
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "comment",
+                    "id": "obj-1",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "outlettype": [],
+                    "patching_rect": [
+                        15.0,
+                        340,
+                        560.0,
+                        47.0
+                    ],
+                    "text": "State outlet: every UI and core has a last outlet that sends mono 0/1, freq <Hz> and mix 0-3 the moment a control changes (numbers only, not signals). Open [p State outlet] (also a tab at the top) to see it read by name with [route mono freq mix].",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-2",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "outlettype": [],
+                    "patching_rect": [
+                        700.0,
+                        385.0,
+                        128.0,
+                        22.0
+                    ],
+                    "text": "p \"State outlet\"",
+                    "fontname": "Arial",
+                    "fontsize": 12.0,
+                    "patcher": {
+                        "fileversion": 1,
+                        "appversion": {
+                            "major": 9,
+                            "minor": 0,
+                            "revision": 0,
+                            "architecture": "x64",
+                            "modernui": 1
+                        },
+                        "classnamespace": "box",
+                        "rect": [
+                            100.0,
+                            100.0,
+                            400.0,
+                            300.0
+                        ],
+                        "bglocked": 0,
+                        "openinpresentation": 0,
+                        "default_fontsize": 12.0,
+                        "default_fontface": 0,
+                        "default_fontname": "Arial",
+                        "gridonopen": 1,
+                        "gridsize": [
+                            15.0,
+                            15.0
+                        ],
+                        "gridsnaponopen": 1,
+                        "objectsnaponopen": 1,
+                        "statusbarvisible": 2,
+                        "toolbarvisible": 1,
+                        "lefttoolbarpinned": 0,
+                        "toptoolbarpinned": 0,
+                        "righttoolbarpinned": 0,
+                        "bottomtoolbarpinned": 0,
+                        "toolbars_unpinned_last_save": 0,
+                        "tallnewobj": 0,
+                        "boxanimatetime": 200,
+                        "enablehscroll": 1,
+                        "enablevscroll": 1,
+                        "devicewidth": 0.0,
+                        "description": "",
+                        "digest": "",
+                        "tags": "",
+                        "style": "",
+                        "subpatcher_template": "",
+                        "assistshowspatchername": 0,
+                        "boxes": [
+                            {
+                                "box": {
+                                    "maxclass": "inlet",
+                                    "id": "obj-1",
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [
+                                        ""
+                                    ],
+                                    "patching_rect": [
+                                        30.0,
+                                        95.0,
+                                        30.0,
+                                        30.0
+                                    ],
+                                    "comment": "State from A (UI)"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "comment",
+                                    "id": "obj-2",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "outlettype": [],
+                                    "patching_rect": [
+                                        30.0,
+                                        15.0,
+                                        600.0,
+                                        47.0
+                                    ],
+                                    "text": "Each br.utility.monobass UI/core sends its state out of its LAST outlet as named messages: mono 0/1, freq <Hz> and mix 0-3, the moment a control changes. Read them by NAME with [route mono freq mix], never by position: names stay put when a tool gains controls.",
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "comment",
+                                    "id": "obj-3",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "outlettype": [],
+                                    "patching_rect": [
+                                        70.0,
+                                        100.0,
+                                        58.0,
+                                        20.0
+                                    ],
+                                    "text": "A (UI)",
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "id": "obj-4",
+                                    "numinlets": 2,
+                                    "numoutlets": 4,
+                                    "outlettype": [
+                                        "",
+                                        "",
+                                        "",
+                                        ""
+                                    ],
+                                    "patching_rect": [
+                                        30.0,
+                                        135.0,
+                                        149.0,
+                                        22.0
+                                    ],
+                                    "text": "route mono freq mix",
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "number",
+                                    "id": "obj-5",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [
+                                        "",
+                                        ""
+                                    ],
+                                    "patching_rect": [
+                                        30.0,
+                                        170.0,
+                                        50.0,
+                                        22.0
+                                    ],
+                                    "parameter_enable": 0
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "comment",
+                                    "id": "obj-6",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "outlettype": [],
+                                    "patching_rect": [
+                                        30.0,
+                                        195.0,
+                                        44.0,
+                                        20.0
+                                    ],
+                                    "text": "mono",
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "flonum",
+                                    "id": "obj-7",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [
+                                        "",
+                                        ""
+                                    ],
+                                    "patching_rect": [
+                                        100.0,
+                                        170.0,
+                                        50.0,
+                                        22.0
+                                    ],
+                                    "parameter_enable": 0
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "comment",
+                                    "id": "obj-8",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "outlettype": [],
+                                    "patching_rect": [
+                                        100.0,
+                                        195.0,
+                                        44.0,
+                                        20.0
+                                    ],
+                                    "text": "freq",
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "number",
+                                    "id": "obj-9",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [
+                                        "",
+                                        ""
+                                    ],
+                                    "patching_rect": [
+                                        170.0,
+                                        170.0,
+                                        50.0,
+                                        22.0
+                                    ],
+                                    "parameter_enable": 0
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "comment",
+                                    "id": "obj-10",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "outlettype": [],
+                                    "patching_rect": [
+                                        170.0,
+                                        195.0,
+                                        40.0,
+                                        20.0
+                                    ],
+                                    "text": "mix",
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0
+                                }
+                            }
+                        ],
+                        "lines": [
+                            {
+                                "patchline": {
+                                    "source": [
+                                        "obj-1",
+                                        0
+                                    ],
+                                    "destination": [
+                                        "obj-4",
+                                        0
+                                    ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [
+                                        "obj-4",
+                                        0
+                                    ],
+                                    "destination": [
+                                        "obj-5",
+                                        0
+                                    ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [
+                                        "obj-4",
+                                        1
+                                    ],
+                                    "destination": [
+                                        "obj-7",
+                                        0
+                                    ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [
+                                        "obj-4",
+                                        2
+                                    ],
+                                    "destination": [
+                                        "obj-9",
+                                        0
+                                    ]
+                                }
+                            }
+                        ],
+                        "dependency_cache": [],
+                        "autosave": 0,
+                        "showontab": 1
+                    },
+                    "saved_object_attributes": {
+                        "description": "",
+                        "digest": "",
+                        "globalpatchername": "",
+                        "tags": ""
+                    }
                 }
             }
         ],
@@ -996,6 +1330,18 @@
                     ],
                     "destination": [
                         "obj-dac",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-a",
+                        2
+                    ],
+                    "destination": [
+                        "obj-2",
                         0
                     ]
                 }
