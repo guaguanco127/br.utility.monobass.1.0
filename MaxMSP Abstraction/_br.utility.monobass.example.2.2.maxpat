@@ -32,7 +32,7 @@
                         470.0,
                         33.0
                     ],
-                    "text": "_br.utility.monobass.example.2.1 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
+                    "text": "_br.utility.monobass.example.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
                     "linecount": 2
                 }
             },
@@ -87,7 +87,7 @@
                         560.0,
                         60.0
                     ],
-                    "text": "Two files, same DSP inside:\nbr.utility.monobass.2.1 = core, no UI (in: L, R, Bass Mono, Freq, Mix)\nbr.utility.monobass.ui.2.1 = the same with a Bass Mono button, a Freq dial and a Mix menu",
+                    "text": "Two files, same DSP inside:\nbr.utility.monobass.2.2 = core, no UI (in: L, R, Bass Mono, Freq, Mix)\nbr.utility.monobass.ui.2.2 = the same with a Bass Mono button, a Freq dial and a Mix menu",
                     "linecount": 4
                 }
             },
@@ -471,7 +471,7 @@
                         220.0,
                         20.0
                     ],
-                    "text": "A: br.utility.monobass.ui.2.1"
+                    "text": "A: br.utility.monobass.ui.2.2"
                 }
             },
             {
@@ -485,7 +485,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "br.utility.monobass.ui.2.1.maxpat",
+                    "name": "br.utility.monobass.ui.2.2.maxpat",
                     "numinlets": 5,
                     "numoutlets": 3,
                     "offset": [
@@ -632,9 +632,9 @@
                     "fontsize": 12.0,
                     "maxclass": "newobj",
                     "id": "obj-b",
-                    "text": "br.utility.monobass.2.1",
+                    "text": "br.utility.monobass.2.2",
                     "numinlets": 5,
-                    "numoutlets": 3,
+                    "numoutlets": 2,
                     "outlettype": [
                         "signal",
                         "signal",
@@ -809,7 +809,7 @@
                         560.0,
                         47.0
                     ],
-                    "text": "State outlet: every UI and core has a last outlet that sends mono 0/1, freq <Hz> and mix 0-3 the moment a control changes (numbers only, not signals). Open [p State outlet] (also a tab at the top) to see it read by name with [route mono freq mix].",
+                    "text": "State outlet: the UI has a last outlet that sends mono 0/1, freq <Hz> and mix 0-3 the moment a control changes. The core has none: whatever drives it already knows the values. Open [p State outlet] (also a tab at the top) to see it read by name with [route mono freq mix].",
                     "fontname": "Arial",
                     "fontsize": 12.0
                 }
@@ -908,7 +908,7 @@
                                         600.0,
                                         47.0
                                     ],
-                                    "text": "Each br.utility.monobass UI/core sends its state out of its LAST outlet as named messages: mono 0/1, freq <Hz> and mix 0-3, the moment a control changes. Read them by NAME with [route mono freq mix], never by position: names stay put when a tool gains controls.",
+                                    "text": "Each br.utility.monobass UI sends its state out of its LAST outlet as named messages: mono 0/1, freq <Hz> and mix 0-3, the moment a control changes. Read them by NAME with [route mono freq mix], never by position: names stay put when a tool gains controls.",
                                     "fontname": "Arial",
                                     "fontsize": 12.0
                                 }

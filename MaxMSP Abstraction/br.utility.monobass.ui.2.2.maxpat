@@ -39,7 +39,7 @@
         "enablehscroll": 1,
         "enablevscroll": 1,
         "devicewidth": 58.0,
-        "description": "br.utility.monobass.ui.2.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+        "description": "br.utility.monobass.ui.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
         "digest": "",
         "tags": "",
         "style": "",
@@ -56,12 +56,12 @@
                     "numoutlets": 0,
                     "outlettype": [],
                     "patching_rect": [
-                        690.0,
+                        880.0,
                         15.0,
                         360.0,
                         33.0
                     ],
-                    "text": "br.utility.monobass.ui.2.1 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
+                    "text": "br.utility.monobass.ui.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
                     "linecount": 2
                 }
             },
@@ -137,7 +137,7 @@
                         ""
                     ],
                     "patching_rect": [
-                        240.0,
+                        295.0,
                         15.0,
                         30.0,
                         30.0
@@ -157,7 +157,7 @@
                         ""
                     ],
                     "patching_rect": [
-                        315.0,
+                        425.0,
                         15.0,
                         30.0,
                         30.0
@@ -176,7 +176,7 @@
                     "outlettype": [],
                     "patching_rect": [
                         15.0,
-                        180.0,
+                        280.0,
                         30.0,
                         30.0
                     ],
@@ -193,8 +193,8 @@
                     "numoutlets": 0,
                     "outlettype": [],
                     "patching_rect": [
-                        315.0,
-                        180.0,
+                        90.0,
+                        280.0,
                         30.0,
                         30.0
                     ],
@@ -265,7 +265,7 @@
                     ],
                     "parameter_enable": 1,
                     "patching_rect": [
-                        240.0,
+                        295.0,
                         60.0,
                         44.0,
                         52.0
@@ -308,7 +308,7 @@
                         "float"
                     ],
                     "patching_rect": [
-                        315.0,
+                        425.0,
                         60.0,
                         48.0,
                         17.0
@@ -353,9 +353,9 @@
                     "fontsize": 12.0,
                     "maxclass": "newobj",
                     "id": "obj-core",
-                    "text": "br.utility.monobass.2.1",
+                    "text": "br.utility.monobass.2.2",
                     "numinlets": 5,
-                    "numoutlets": 3,
+                    "numoutlets": 2,
                     "outlettype": [
                         "signal",
                         "signal",
@@ -363,8 +363,8 @@
                     ],
                     "patching_rect": [
                         15.0,
-                        130.0,
-                        330.0,
+                        170.0,
+                        150.0,
                         22.0
                     ]
                 }
@@ -379,7 +379,7 @@
                     "numoutlets": 0,
                     "outlettype": [],
                     "patching_rect": [
-                        390.0,
+                        580.0,
                         55.0,
                         280.0,
                         90.0
@@ -397,12 +397,12 @@
                     "numoutlets": 0,
                     "outlettype": [],
                     "patching_rect": [
-                        390.0,
+                        580.0,
                         155.0,
                         280.0,
                         75.0
                     ],
-                    "text": "[br.utility.monobass.2.1] is the real object: open it to see the gen~ inside. This file only adds the controls, so you can also patch the core directly and drive Bass Mono or Freq with a signal (Freq up to 20 kHz there)."
+                    "text": "[br.utility.monobass.2.2] is the real object: open it to see the gen~ inside. This file only adds the controls, so you can also patch the core directly and drive Bass Mono or Freq with a signal (Freq up to 20 kHz there)."
                 }
             },
             {
@@ -416,7 +416,7 @@
                     "outlettype": [],
                     "patching_rect": [
                         15.0,
-                        250.0,
+                        330.0,
                         655.0,
                         90.0
                     ],
@@ -434,7 +434,7 @@
                     "outlettype": [],
                     "patching_rect": [
                         15.0,
-                        350.0,
+                        430.0,
                         655.0,
                         60.0
                     ],
@@ -444,7 +444,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "annotation": "br.utility.monobass.ui.2.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+                    "annotation": "br.utility.monobass.ui.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
                     "background": 1,
                     "bgcolor": [
                         0.0,
@@ -452,14 +452,14 @@
                         0.0,
                         1.0
                     ],
-                    "hint": "br.utility.monobass.ui.2.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+                    "hint": "br.utility.monobass.ui.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
                     "id": "obj-panel",
                     "maxclass": "panel",
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [
-                        690.0,
+                        880.0,
                         60.0,
                         80.0,
                         110.0
@@ -483,12 +483,12 @@
                     "numoutlets": 0,
                     "outlettype": [],
                     "patching_rect": [
-                        352.5,
-                        180.0,
+                        165.0,
+                        280.0,
                         30.0,
                         30.0
                     ],
-                    "comment": "State (Message): mono 0/1, freq <Hz> and mix 0-3, sent the moment a control changes. Numbers only (signals are not reported). Pick them out by name: [route mono freq mix]"
+                    "comment": "State (Message): mono 0/1, freq <Hz> and mix 0-3, sent the moment a control changes. Pick them out by name: [route mono freq mix]"
                 }
             },
             {
@@ -500,11 +500,200 @@
                     "outlettype": [],
                     "patching_rect": [
                         15.0,
-                        420.0,
+                        500.0,
                         565.0,
                         47.0
                     ],
-                    "text": "The last outlet (State) reports the controls as mono 0/1, freq <Hz> and mix 0-3 the moment they change. It comes from the core, so moving a control, numbers into the inlets and preset recalls all show up. Pick them out by name with [route mono freq mix].",
+                    "text": "The last outlet (State) reports the controls as mono 0/1, freq <Hz> and mix 0-3 the moment they change. Each control is tapped on its way into the core, so moving it, numbers into the inlets and preset recalls all show up. Only the UI has one: whatever drives the core directly already knows the values. Pick them out by name with [route mono freq mix].",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-3",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [
+                        "",
+                        ""
+                    ],
+                    "patching_rect": [
+                        165.0,
+                        125.0,
+                        51.0,
+                        22.0
+                    ],
+                    "text": "t i i",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-4",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "patching_rect": [
+                        165.0,
+                        200.0,
+                        72.0,
+                        22.0
+                    ],
+                    "text": "change 0",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-5",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [
+                        ""
+                    ],
+                    "patching_rect": [
+                        165.0,
+                        230.0,
+                        110.0,
+                        22.0
+                    ],
+                    "text": "prepend mono",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-6",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [
+                        "",
+                        ""
+                    ],
+                    "patching_rect": [
+                        295.0,
+                        125.0,
+                        51.0,
+                        22.0
+                    ],
+                    "text": "t f f",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-7",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "patching_rect": [
+                        295.0,
+                        200.0,
+                        79.0,
+                        22.0
+                    ],
+                    "text": "change 0.",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-8",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [
+                        ""
+                    ],
+                    "patching_rect": [
+                        295.0,
+                        230.0,
+                        110.0,
+                        22.0
+                    ],
+                    "text": "prepend freq",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-9",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [
+                        "",
+                        ""
+                    ],
+                    "patching_rect": [
+                        425.0,
+                        125.0,
+                        51.0,
+                        22.0
+                    ],
+                    "text": "t i i",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-10",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "patching_rect": [
+                        425.0,
+                        200.0,
+                        72.0,
+                        22.0
+                    ],
+                    "text": "change 0",
+                    "fontname": "Arial",
+                    "fontsize": 12.0
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "id": "obj-11",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [
+                        ""
+                    ],
+                    "patching_rect": [
+                        425.0,
+                        230.0,
+                        110.0,
+                        22.0
+                    ],
+                    "text": "prepend mix",
                     "fontname": "Arial",
                     "fontsize": 12.0
                 }
@@ -574,42 +763,6 @@
             {
                 "patchline": {
                     "source": [
-                        "obj-mono",
-                        0
-                    ],
-                    "destination": [
-                        "obj-core",
-                        2
-                    ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [
-                        "obj-freq",
-                        0
-                    ],
-                    "destination": [
-                        "obj-core",
-                        3
-                    ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [
-                        "obj-mix",
-                        0
-                    ],
-                    "destination": [
-                        "obj-core",
-                        4
-                    ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [
                         "obj-core",
                         0
                     ],
@@ -634,8 +787,176 @@
             {
                 "patchline": {
                     "source": [
+                        "obj-mono",
+                        0
+                    ],
+                    "destination": [
+                        "obj-3",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-3",
+                        1
+                    ],
+                    "destination": [
                         "obj-core",
                         2
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-3",
+                        0
+                    ],
+                    "destination": [
+                        "obj-4",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-4",
+                        0
+                    ],
+                    "destination": [
+                        "obj-5",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-5",
+                        0
+                    ],
+                    "destination": [
+                        "obj-1",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-freq",
+                        0
+                    ],
+                    "destination": [
+                        "obj-6",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-6",
+                        1
+                    ],
+                    "destination": [
+                        "obj-core",
+                        3
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-6",
+                        0
+                    ],
+                    "destination": [
+                        "obj-7",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-7",
+                        0
+                    ],
+                    "destination": [
+                        "obj-8",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-8",
+                        0
+                    ],
+                    "destination": [
+                        "obj-1",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-mix",
+                        0
+                    ],
+                    "destination": [
+                        "obj-9",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-9",
+                        1
+                    ],
+                    "destination": [
+                        "obj-core",
+                        4
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-9",
+                        0
+                    ],
+                    "destination": [
+                        "obj-10",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-10",
+                        0
+                    ],
+                    "destination": [
+                        "obj-11",
+                        0
+                    ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [
+                        "obj-11",
+                        0
                     ],
                     "destination": [
                         "obj-1",
